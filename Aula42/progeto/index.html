@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos em JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+    <h1>Eventos em JavaScript - exemplos didáticos</h1>
+    <p>Interaja com elementos abaixo e veja como os eventos funcionam</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>1. Evento de clique (click)</h2>
+            <button id="btnClick">Clique em mim</button>
+            <p id="clickResult">Ainda não houve clique</p>
+        </section>
+
+        <!-- 2) Digitar em campo de texto -->
+  <section class="card">
+    <h2>2. Evento de digitação (input)</h2>
+    <input id="nomeInput" type="text" placeholder="Digite seu nome" />
+    <p id="nomeResult">Nada digitado ainda.</p>
+  </section>
+
+  <!-- 3) Passar o mouse sobre a caixa -->
+<section class="card">
+  <h2>3. Evento de mouse (mouseover / mouseout)</h2>
+  <div id="caixaHover" class="box">
+    Passe o mouse aqui!
+  </div>
+  <p id="hoverResult">Nenhuma interação ainda.</p>
+</section>
+
+<!-- 4) Seleção em menu suspenso -->
+<section class="card">
+  <h2>4. Evento de mudança (change)</h2>
+  <label for="corSelect">Escolha uma cor:</label>
+  <select id="corSelect">
+    <option value="">--Selecione--</option>
+    <option value="vermelho">Vermelho</option>
+    <option value="azul">Azul</option>
+    <option value="verde">Verde</option>
+  </select>
+  <p id="corResult">Nenhuma cor escolhida ainda.</p>
+</section>
+
+<!-- 5) Evento de teclado -->
+<section class="card">
+  <h2>5. Evento de teclado (keydown)</h2>
+  <input id="teclaInput" type="text" placeholder="Digite algo e pressione uma tecla" />
+  <p id="teclaResult">Nenhuma tecla pressionada ainda.</p>
+</section>
+
+<!-- 6) Alterar texto existente -->
+<section class="card">
+  <h2>6. Alterar texto existente</h2>
+  <p id="textoOriginal">Este é o texto inicial.</p>
+  <button id="btnMudarTexto">Mudar texto</button>
+</section>
+
+<!-- 7) Mini chat bot simples -->
+<section class="card">
+  <h2>7. Mini Chat Bot (simulação)</h2>
+  <div class="list-container">
+    <ul id="chatArea">
+      <li class="list-item">🤖 Bot: Olá! Digite algo para começar.</li>
+    </ul>
+  </div>
+  <input id="chatInput" type="text" placeholder="Digite sua mensagem e pressione Enter" />
+</section>
+
+</main>
+        <footer>
+            <small>Feito Pelo Professor Elias Gomes, para estudo: HTML + CSS + JS com comntários.</small>
+        </footer>
+    </main>
+    <script src="scripit.js"></script>
+</body>
+</html>

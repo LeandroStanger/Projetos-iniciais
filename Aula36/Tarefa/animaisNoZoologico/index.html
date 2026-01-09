@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais No Zoologico</title>
+</head>
+
+<body>
+    <main>
+        <h1>Animais No Zoologico</h1>
+        <p>Animais No Zoologico</p>
+
+        <pre id="rawData">[ 
+  { nome: "Leão", especie: "Felino", peso: 190, idade: 8 }, 
+  { nome: "Elefante", especie: "Mamífero", peso: 5400, idade: 
+25 }, 
+  { nome: "Girafa", especie: "Herbívoro", peso: 800, idade: 12 
+}, 
+  { nome: "Macaco", especie: "Primata", peso: 40, idade: 5 }, 
+  { nome: "Tigre", especie: "Felino", peso: 220, idade: 10 } 
+]; 
+</pre>
+
+        <div class="controls">
+            <button id="processBtn">Processar dados</button>
+            <button id="resetBtn">Resetar saida</button>
+        </div>
+
+        <div id="output" class="output" aria-live="polite"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

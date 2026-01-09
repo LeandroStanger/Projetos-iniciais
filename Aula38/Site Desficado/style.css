@@ -1,0 +1,249 @@
+html,
+body {
+    font-family: sans-serif;
+    cursor: url('img/car_7983848.png'), auto;
+    padding-bottom: 50px;
+}
+
+/* Estiliza o título principal */
+h1 {
+    color: blue;
+    /* Define a cor do texto como azul */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+/* Estiliza os parágrafos */
+p {
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+/* Estiliza o elemento com id "perfil" */
+#perfil {
+    margin-left: 30px;
+    /* Adiciona margem à esquerda de 30px */
+}
+
+/* Estiliza o container da cena */
+.cena {
+    width: 100%;
+    /* Ocupa toda a largura disponível */
+    height: 200px;
+    /* Altura fixa de 200px */
+    background: lightskyblue;
+    /* Cor de fundo azul claro */
+    position: relative;
+    /* Define como referência para posicionamento absoluto dos filhos */
+    overflow: hidden;
+    /* Esconde conteúdo que ultrapassa os limites */
+}
+
+/* Estiliza o container da cena */
+.carro {
+    width: 300px;
+    /* Largura fixa de 300px */
+    position: absolute;
+    /* Posiciona em relação ao elemento pai com position: relative */
+    bottom: 10px;
+    /* Distância de 10px da parte inferior */
+    left: 0;
+    /* Alinha à esquerda */
+}
+
+/* Estiliza o corpo da pagina */
+body {
+    background-color: #f5f5f5;
+    /* Cor de fundo cinza claro */
+    color: #333;
+    /* Cor do texto em cinza escuro */
+    line-height: 1.6;
+    /* Altura da linha para melhor legibilidade */
+}
+
+/* Estiliza listas não ordenadas */
+ul {
+    list-style-type: none;
+    /* Remove os marcadores padrão da lista */
+    padding: 0;
+    /* Remove o preenchimento interno */
+    max-width: 400px;
+    /* Define largura máxima de 400px */
+    margin: auto;
+    /* Centraliza horizontalmente */
+}
+
+/*Estiliza cada item da lista */
+li {
+    margin-bottom: 15px;
+    /* Espaço inferior entre os itens */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
+/* Estiliza o menu de navegaçao */
+nav {
+    max-width: 100%;
+    /* Ocupa toda a largura disponível */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+    padding: 10px 0;
+    /* Espaçamento vertical interno */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    background-color: aquamarine;
+    /* Cor de fundo bege */
+    display: flex;
+    /* Organiza os itens em linha */
+    justify-content: center;
+    /* Organiza os itens em linha */
+}
+
+/* Estiliza a lista dentro do menu de navegação */
+nav ul {
+    display: flex;
+    /* Organiza os itens em linha */
+    list-style: none;
+    /*Remove margens padrão */
+    justify-content: center;
+    /* Organiza os itens em linha */
+    gap: 30px;
+    /* Espaço entre os itens */
+    margin: 0;
+    /* Remove margens padrão */
+    padding: 10px 0;
+    /* Espaçamento vertical interno */
+}
+
+/* Estiliza cada item da lista no menu */
+nav ul li {
+    margin: 0;
+    /* Remove margens extras */
+}
+
+/* Estiliza os links do menu */
+nav ul li a {
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    background-color: blue;
+    /* Cor de fundo azul */
+    color: white;
+    /* Cor do texto branca */
+    padding: 6px 12px;
+    /* Espaçamento interno */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Texto em negrito */
+    border: none;
+    /* Remove borda */
+    display: inline-block;
+    /* Permite aplicar padding e margin corretamente */
+    transition: all 0.3s ease;
+    /* Animação suave ao passar o mouse */
+}
+
+/* Estiliza os links do menu quando o mouse passa por cima */
+nav ul li a:hover {
+    padding: 8px auto;
+    /* Muda a cor de fundo para verde */
+    background-color: green;
+    /* Aumenta o espaçamento interno (obs: falta unidade 'px' em 15) */
+}
+
+#msg {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: antiquewhite;
+}
+
+/* Estiliza o container da galeria de imagens */
+.galeria,
+.galeria2,
+.galeria3 {
+    display: flex;
+    /* Organiza os elementos filhos (imagens) em linha */
+    justify-content: center;
+    /* Centraliza os elementos horizontalmente dentro da galeria */
+    gap: 20px;
+    /* Define um espaço de 20px entre cada imagem */
+    background-color: #ffe4c4;
+    /* Define a cor de fundo como bisque (tom claro de laranja) */
+    padding: 20px;
+    /* Adiciona espaçamento interno de 20px em todos os lados */
+    margin-top: 20px;
+    /* Adiciona espaçamento acima da galeria */
+    border-radius: 10px;
+    /* Arredonda os cantos da galeria com raio de 10px */
+}
+
+/* Estiliza cada imagem dentro da galeria */
+.galeria img,
+.galeria2 img,
+.galeria3 img {
+    width: 200px;
+    /* Define largura fixa de 200px para todas as imagens */
+    height: auto;
+    /* Mantém a proporção original da imagem ao ajustar a largura */
+    border-radius: 8px;
+    /* Arredonda os cantos da imagem com raio de 8px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    /* Adiciona uma sombra suave ao redor da imagem */
+}
+
+#videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#videos iframe {
+    width: auto;
+    height: 560px;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.img-carossel {
+    height: 400px;
+    object-fit: cover;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda Inteligente de Estudos</title>
+  <!-- Link para o CSS externo -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Agenda Inteligente de Estudos</h1>
+  <div class="container">
+    <form id="formEstudos">
+      <label>Dormiu quantas horas?</label>
+      <input type="number" id="dormiuHoras" value="5" min="0" max="24">
+
+      <label>Nível de energia (%)</label>
+      <input type="number" id="energia" value="38" min="0" max="100">
+
+      <label>Tempo disponível (h)</label>
+      <input type="number" id="tempoDisponivel" value="3" min="0" max="24">
+
+      <label>Nível de água (L)</label>
+      <input type="number" id="agua" value="2" min="0" max="80">
+      
+      <label>É sexta-feira?</label>
+      <select id="sextaFeira">
+        <option value="true">Sim</option>
+        <option value="false">Não</option>
+      </select>
+
+      <label>Dia de treino físico?</label>
+      <select id="diaTreino">
+        <option value="true">Sim</option>
+        <option value="false">Não</option>
+      </select>
+
+      <h3>Matérias da semana</h3>
+      <div class="materia">
+        <label>Matéria 1</label>
+        <input type="text" id="mat1Nome" value="Matemática">
+        <label>Horas</label>
+        <input type="number" id="mat1Horas" value="2">
+        <label>Tem prova?</label>
+        <select id="mat1Prova"><option value="true">Sim</option><option value="false">Não</option></select>
+      </div>
+      <div class="materia">
+        <label>Matéria 2</label>
+        <input type="text" id="mat2Nome" value="História">
+        <label>Horas</label>
+        <input type="number" id="mat2Horas" value="1">
+        <label>Tem prova?</label>
+        <select id="mat2Prova"><option value="false">Não</option><option value="true">Sim</option></select>
+      </div>
+      <div class="materia">
+        <label>Matéria 3</label>
+        <input type="text" id="mat3Nome" value="Física">
+        <label>Horas</label>
+        <input type="number" id="mat3Horas" value="3">
+        <label>Tem prova?</label>
+        <select id="mat3Prova"><option value="false">Não</option><option value="true">Sim</option></select>
+      </div>
+
+      <button type="button" onclick="gerarPlano()">Gerar Plano de Estudos</button>
+    </form>
+
+    <div id="saida" class="resultado"></div>
+  </div>
+
+  <!-- Link para o JS externo -->
+  <script src="scripit.js"></script>
+</body>
+</html>

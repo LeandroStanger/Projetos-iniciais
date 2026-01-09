@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Lista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gerenciador de Lista</h1>
+            <p>Adicione, edite ou remova registros da lista</p>
+        </header>
+
+        <div class="form-container">
+            <h2>Adicionar Novo Registro</h2>
+            <div class="input-group">
+                <input type="text" id="nome" placeholder="Nome">
+                <input type="email" id="email" placeholder="E-mail">
+                <input type="number" id="idade" placeholder="Idade">
+                <input type="text" id="cidade" placeholder="Cidade">
+                <input type="tel" id="telefone" placeholder="Telefone">
+            </div>
+            <button id="addBtn">Adicionar</button>
+        </div>
+
+        <div class="lista-container">
+            <h2>Lista de Registros</h2>
+            <div id="saida" class="lista"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
