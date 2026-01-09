@@ -1,0 +1,104 @@
+/* Estilos simples e legíveis para ensino */
+
+/* Fonte e layout básico */
+:root {
+  --bg: #0f172a;        /* fundo escuro */
+  --card: #1e293b;      /* cards */
+  --text: #e2e8f0;      /* texto claro */
+  --accent: #38bdf8;    /* azul destaque */
+  --muted: #94a3b8;     /* texto secundário */
+  --success: #22c55e;   /* verde */
+  --warn: #f59e0b;      /* amarelo */
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: linear-gradient(180deg, #0b1020, var(--bg));
+  color: var(--text);
+}
+
+header {
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+h1 { margin: 0 0 0.5rem; }
+header p { color: var(--muted); }
+
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.box {
+  background: rgba(56, 189, 248, 0.12);
+  border: 2px dashed var(--accent);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.box.active {
+  background: rgba(34, 197, 94, 0.12);
+  border-color: var(--success);
+  transform: scale(1.02);
+}
+
+input, button {
+  font: inherit;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: #0b1220;
+  color: var(--text);
+}
+
+button {
+  cursor: pointer;
+  transition: 0.2s ease;
+  border-color: rgba(56, 189, 248, 0.3);
+}
+
+button:hover { filter: brightness(1.1); }
+
+.list-container {
+  padding: 0.5rem;
+  border: 1px dashed rgba(255,255,255,0.2);
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  padding: 0.6rem;
+  margin: 0.25rem 0;
+  background: rgba(56, 189, 248, 0.12);
+  border-radius: 6px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--muted);
+}

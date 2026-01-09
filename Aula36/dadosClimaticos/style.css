@@ -1,0 +1,57 @@
+/* styles.css - bem simples */
+:root{
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+body{
+  margin: 20px;
+  background: #f7f7f7;
+}
+
+main{
+  max-width: 640px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 18px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+h1{
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.controls{
+  margin: 12px 0;
+}
+
+button{
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+pre{
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.output{
+  margin-top: 12px;
+  white-space: pre-wrap;
+  background: #fafafa;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px dashed #e6e6e6;
+}
