@@ -1,0 +1,58 @@
+[
+  {
+    "aluno": "Ana Silva Santos",
+    "materia": "Matemática",
+    "nota": 8.5,
+    "status": "aprovado",
+    "idade": 17,
+    "mensalidade": 500
+  },
+  {
+    "aluno": "Ana Silva Santos",
+    "materia": "Português",
+    "nota": 7.2,
+    "status": "aprovado",
+    "idade": 17,
+    "mensalidade": 500
+  },
+  {
+    "aluno": "Ana Silva Santos",
+    "materia": "Ciências",
+    "nota": 5.8,
+    "status": "reprovado",
+    "idade": 17,
+    "mensalidade": 500
+  },
+  {
+    "aluno": "Carlos Eduardo Lima",
+    "materia": "Matemática",
+    "nota": 9.1,
+    "status": "aprovado",
+    "idade": 15,
+    "mensalidade": 500
+  },
+  {
+    "aluno": "Carlos Eduardo Lima",
+    "materia": "História",
+    "nota": 6.5,
+    "status": "aprovado",
+    "idade": 15,
+    "mensalidade": 500
+  },
+  {
+    "aluno": "Mariana Oliveira Costa",
+    "materia": "Geografia",
+    "nota": 4.9,
+    "status": "reprovado",
+    "idade": 16,
+    "mensalidade": 500
+  },
+  {
+    "aluno": "Mariana Oliveira Costa",
+    "materia": "Artes",
+    "nota": 8.7,
+    "status": "aprovado",
+    "idade": 16,
+    "mensalidade": 500
+  }
+]
