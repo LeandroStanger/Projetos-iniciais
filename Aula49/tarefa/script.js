@@ -80,15 +80,10 @@ function mediaDaTurma() {
     const media = (soma / alunosComNota.length).toFixed(2);
     const quantidadeAlunos = alunosComNota.length;
 
-    const soma2 = alunosComNota2.reduce((total, aluno) => total + aluno.nota, 0);
-    const media2 = (soma2 / alunosComNota2.length).toFixed(2);
-
     elementoResultado.innerHTML = `
         <strong>Média geral da turma:</strong> ${media}<br>
         <small>Calculada com base em ${quantidadeAlunos} </small>
-        <br>
-        <small>Média de idade dos aluno(s) ${media2}</small>
-    `;
+        `;
     
     return parseFloat(media);
 }
@@ -123,7 +118,7 @@ function mediaDaIdade(){
  
 
     elementoResultado.innerHTML = `
-        <strong>Média de idade dos aluno(s) ${media}</strong>
+        <strong>Média de idade dos aluno(s): </strong> ${media}
         <br>
         <small>Total arrecadado dos aluno(s) ${quantidadeAlunos}</small>
 
