@@ -59,3 +59,9 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+div {
+    display: flex;
+    justify-content: center;
+        gap: 10px;
+}
