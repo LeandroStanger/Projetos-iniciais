@@ -1,0 +1,122 @@
+[
+    {
+        "nome": "Kylian Mbappé",
+        "idade": 27,
+        "gols": 300,
+        "posicao": "Atacante",
+        "selecao_copa_2026": "França",
+        "clube": "Real Madrid"
+    },
+    {
+        "nome": "Erling Haaland",
+        "idade": 25,
+        "gols": 250,
+        "posicao": "Atacante",
+        "selecao_copa_2026": "Noruega",
+        "clube": "Manchester City"
+    },
+    {
+        "nome": "Lamine Yamal",
+        "idade": 19,
+        "gols": 30,
+        "posicao": "Atacante",
+        "selecao_copa_2026": "Espanha",
+        "clube": "Barcelona"
+    },
+    {
+        "nome": "Harry Kane",
+        "idade": 32,
+        "gols": 450,
+        "posicao": "Atacante",
+        "selecao_copa_2026": "Inglaterra",
+        "clube": "Bayern de Munique"
+    },
+    {
+        "nome": "Jude Bellingham",
+        "idade": 22,
+        "gols": 100,
+        "posicao": "Meio-Campista",
+        "selecao_copa_2026": "Inglaterra",
+        "clube": "Real Madrid"
+    },
+    {
+        "nome": "Kevin De Bruyne",
+        "idade": 34,
+        "gols": 150,
+        "posicao": "Meio-Campista",
+        "selecao_copa_2026": "Bélgica",
+        "clube": "Manchester City"
+    },
+    {
+        "nome": "Virgil van Dijk",
+        "idade": 34,
+        "gols": 60,
+        "posicao": "Zagueiro",
+        "selecao_copa_2026": "Holanda",
+        "clube": "Liverpool"
+    },
+    {
+        "nome": "Rodri",
+        "idade": 29,
+        "gols": 40,
+        "posicao": "Meio-Campista",
+        "selecao_copa_2026": "Espanha",
+        "clube": "Manchester City"
+    },
+    {
+        "nome": "Bukayo Saka",
+        "idade": 24,
+        "gols": 80,
+        "posicao": "Atacante",
+        "selecao_copa_2026": "Inglaterra",
+        "clube": "Arsenal"
+    },
+    {
+        "nome": "Phil Foden",
+        "idade": 25,
+        "gols": 90,
+        "posicao": "Meio-Campista",
+        "selecao_copa_2026": "Inglaterra",
+        "clube": "Manchester City"
+    },
+    {
+        "nome": "Pedri",
+        "idade": 23,
+        "gols": 25,
+        "posicao": "Meio-Campista",
+        "selecao_copa_2026": "Espanha",
+        "clube": "Barcelona"
+    },
+    {
+        "nome": "Jamal Musiala",
+        "idade": 23,
+        "gols": 70,
+        "posicao": "Meio-Campista",
+        "selecao_copa_2026": "Alemanha",
+        "clube": "Bayern de Munique"
+    },
+    {
+        "nome": "Federico Valverde",
+        "idade": 27,
+        "gols": 50,
+        "posicao": "Meio-Campista",
+        "selecao_copa_2026": "Uruguai",
+        "clube": "Real Madrid"
+    },
+    {
+        "nome": "Achraf Hakimi",
+        "idade": 27,
+        "gols": 30,
+        "posicao": "Lateral",
+        "selecao_copa_2026": "Marrocos",
+        "clube": "Paris Saint-Germain"
+    },
+    {
+        "nome": "Luis Díaz",
+        "idade": 28,
+        "gols": 100,
+        "posicao": "Atacante",
+        "selecao_copa_2026": "Colômbia",
+        "clube": "Liverpool"
+    }
+]
