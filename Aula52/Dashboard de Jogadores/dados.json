@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Neymar",
+        "idade": 80,
+        "gols": 430
+    },
+    {
+        "nome": "Messi",
+        "idade": 100,
+        "gols": 820
+    },
+    {
+        "nome": "Cristiano",
+        "idade": 120,
+        "gols": 850
+    },
+    {
+        "nome": "Vinícius Jr",
+        "idade": 50,
+        "gols": 150
+    }
+]
