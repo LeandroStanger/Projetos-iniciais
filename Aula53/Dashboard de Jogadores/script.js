@@ -89,7 +89,7 @@ function artilheiroMaisGols(jogadores) {
         <div class="destaque">
  ${jogadoresOrdenados.slice(0, 1).map((p, i) => `
     <p class="maiorPiloto-item">
-        ${p.nome} - Idade: ${p.gols} anos
+        ${p.nome} - Gols: ${p.gols}
     </p>
     `).join('')}
     </div>
