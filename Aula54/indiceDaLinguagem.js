@@ -1,0 +1,30 @@
+const linguagensDeProgramacao = [
+  "JavaScript",
+  "Python",
+  "Java",
+  "C",
+  "C++",
+  "C#",
+  "PHP",
+  "Ruby",
+  "Swift",
+  "Kotlin",
+  "Go",
+  "Rust",
+  "TypeScript",
+  "Assembly",
+  "Perl",
+  "R",
+  "MATLAB",
+  "Dart",
+  "Scala",
+  "Haskell",
+  "Lua",
+  "Objective-C",
+  "Visual Basic",
+  "Delphi",
+  "Fortran",
+  "Cobol"
+];
+
+console.log(linguagensDeProgramacao.indexOf("PHP"))
