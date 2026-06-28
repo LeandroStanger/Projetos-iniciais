@@ -1,0 +1,23 @@
+{
+  "name": "teste-ml-busca",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exemplo simples: busca no Mercado Livre via API pública e tentativa de HTML.",
+  "type": "module",
+  "scripts": {
+    "api": "node buscar-api.js",
+    "html": "node tentativa-html.js",
+    "quotes": "node buscar-quotes.js",
+    "books": "node buscar-books.js",
+    "openlibrary": "node buscar-openlibrary.js",
+    "openlibrary:professor": "node buscar-openlibrary-professor.js",
+    "openlibrary:demo-enriquecer": "node buscar-openlibrary-professor.js busca \"JavaScript Flanagan\" 1 --enriquecer",
+    "books:professor": "node buscar-books-professor.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
