@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+/* Container principal – cartão escuro */
+.Calculadora {
+    background: #1e293b;
+    border-radius: 32px;
+    padding: 28px 24px 32px;
+    box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.05);
+    width: 100%;
+    max-width: 480px;
+    transition: box-shadow 0.2s;
+}
+
+/* Tela – estilo escuro com contraste */
+.tela {
+    width: 100%;
+    background: #0f172a;
+    border: 1px solid #334155;
+    padding: 24px 20px;
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: right;
+    color: #f1f5f9;
+    border-radius: 24px;
+    margin-bottom: 28px;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+}
+
+.tela:focus {
+    border-color: #3b82f6;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* Grade de botões */
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+/* Botões base */
+button {
+    background: #0f172a;
+    border: 1px solid #334155;
+    padding: 16px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 20px;
+    color: #e2e8f0;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: inherit;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: scale(0.97);
+    background: #1e293b;
+    border-color: #475569;
+}
+
+/* Botões especiais (C, ⌫, %) */
+.especial {
+    background: #1e293b;
+    color: #f1f5f9;
+    border-color: #475569;
+    font-weight: 600;
+}
+
+/* Botões de operadores (+, -, *, /, .) */
+.operador {
+    background: #1e293b;
+    color: #60a5fa;
+    font-weight: 600;
+    border-color: #475569;
+}
+
+/* Botões numéricos (classe .botao) */
+.botao {
+    background: #0f172a;
+    font-weight: 500;
+}
+
+/* Botão de igual */
+.botao[value="="] {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+}
+
+.botao[value="="]:active {
+    background: #2563eb;
+    transform: scale(0.97);
+}
+
+/* Hover suave */
+button:hover {
+    background: #1e293b;
+    border-color: #5b6e8c;
+}
+
+.especial:hover {
+    background: #2d3a4e;
+}
+
+.operador:hover {
+    background: #2d3a4e;
+    border-color: #60a5fa;
+}
+
+/* Responsividade */
+@media (max-width: 500px) {
+    .Calculadora {
+        padding: 20px 16px;
+    }
+    .tela {
+        padding: 20px 16px;
+        font-size: 2rem;
+    }
+    button {
+        padding: 14px 0;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .botoes {
+        gap: 8px;
+    }
+    button {
+        padding: 12px 0;
+        font-size: 1rem;
+    }
+}
